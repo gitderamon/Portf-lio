@@ -1,0 +1,28 @@
+body {
+    background-color: #212121;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #53c26b;
+}
+
+.star-ul {
+    list-style-type: none;
+}
+
+.star-li::before {
+    content: "★";
+    margin-right: 10px;
+}
+
+.bar {
+    display: flex;
+}
+
+.bar-percentage {
+    margin-left: 5px;
+}

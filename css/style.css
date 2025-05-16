@@ -20,6 +20,11 @@ body {
     text-align: justify;
 }
 
+h1 {
+    color: #53c26b;
+    font-size: xx-large;
+}
+
 #about-me-buttons {
     display: flex;
     justify-content: space-evenly;
@@ -37,4 +42,9 @@ body {
 .about-me-buttons:hover {
     transform: scale(1.05);
     background-color: #53c26b;
+}
+
+.anchor-buttons {
+    text-decoration: none;
+    color: black;
 }

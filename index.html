@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Ramon</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <section id="about-me">
-        <figure>
-            <img src="images/hinata-from-the-back.png" alt="Hinata passando." id="about-me-image">
-        </figure>
         <div id="about-me-div">
-            <h1>🧩Sobre mim</h1>
-            <p>
-                Olá! Meu nome é Ramon, tenho 17 anos, me considero uma pessoa curiosa que gosta de entender como as coisas são feitas, tenho interesse em trabalhar com outras pessoas, acredito que sempre dá para aprender algo novo quando estamos cercados de pessoas diferentes, e fora das telas, gosto de esportes, especialmente de jogar vôlei.
-            </p>
-            <p>
-                Atualmente estou no 1° período do curso de Análise e Desenvolvimento de Sistemas na FATEC, ainda estou descobrindo o que mais me interessa dentro da área de tecnologia, mas tenho gostado de aprender novos conhecimentos, e desenvolvi esse portfólio para mostrar um pouco das habilidades que estou adquirindo e como estou evoluindo.
-            </p>
+            <h1 id="about-me-title">🧩Sobre mim</h1>
+                <div id="about-me-text">
+                    <p class="white-text">
+                        Olá! Meu nome é Ramon, tenho 17 anos, me considero uma pessoa curiosa que gosta de entender como as coisas são feitas, tenho interesse em trabalhar com outras pessoas, acredito que sempre dá para aprender algo novo quando estamos cercados de pessoas diferentes, e fora das telas, gosto de esportes, especialmente de jogar vôlei.
+                    </p>
+                    <p class="white-text">
+                        Atualmente estou no 1° período do curso de Análise e Desenvolvimento de Sistemas na FATEC, ainda estou descobrindo o que mais me interessa dentro da área de tecnologia, mas tenho gostado de aprender novos conhecimentos, e desenvolvi esse portfólio para mostrar um pouco das habilidades que estou adquirindo e como estou evoluindo.<span id="caret">|</span>
+                    </p>
+                </div>
             <br>
             <section id="about-me-buttons">
-                <button class="about-me-buttons">Projetos</button>
+                <button class="about-me-buttons">
+                    <a href="#projects" class="anchor-buttons">Projetos</a>
+                </button>
                 <button class="about-me-buttons">
                     <a href="curriculum.html" target="_blank" class="anchor-buttons">Currículo</a>
                 </button>
@@ -29,5 +32,28 @@
             </section>
         </div>
     </section>
+    <section id="projects">
+        <div id="projects-title">
+            <h1>Projetos</h1>
+        </div>
+        <div id="projects-div">
+            <div class="project-div">
+                <figure>
+                    <img src="images/background-sama.jpg" alt="Projeto SAMA">
+                </figure>
+                <h1 class="white-text">SAMA</h1>
+                <p class="white-text">Sistema de atestados médicos e avaliações.</p>
+            </div>
+            <div class="project-div">
+                <h1 class="white-text">???</h1>
+                <p class="white-text">???</p>
+            </div>
+            <div class="project-div">
+                <h1 class="white-text">???</h1>
+                <p class="white-text">???</p>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

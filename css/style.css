@@ -1,28 +1,52 @@
 body {
     background-color: #212121;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 #about-me {
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#about-me-image {
-    width: 400px;
+    height: 100vh;
+    width: 100vw;
 }
 
 #about-me-div {
-    width: 500px;
-    font-size: 15px;
+    width: 800px;
     text-align: justify;
 }
 
-h1 {
+#about-me-title {
     color: #53c26b;
     font-size: xx-large;
+}
+
+.white-text {
+    color: white;
+}
+
+#about-me-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#caret {
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 
 #about-me-buttons {
@@ -47,4 +71,62 @@ h1 {
 .anchor-buttons {
     text-decoration: none;
     color: black;
+}
+
+#projects {
+    margin-top: 450px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-title {
+    font-size: x-large;
+    text-align: center;
+}
+
+h1 {
+    color: #53c26b;
+}
+
+#projects-div {
+    flex: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-div {
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.project-div h1, p {
+    margin-left: 20px;
+}
+
+.project-div:hover {
+    transform: scale(1.05);
+    background-color: #3d8f4f;
+}
+
+.project-div img {
+    height: 125px;
+    width: 100%;
+    object-fit: cover;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
 }

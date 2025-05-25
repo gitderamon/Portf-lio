@@ -21,8 +21,17 @@ h1 {
 
 .bar {
     display: flex;
+    align-items: center;
 }
 
 .bar-percentage {
     margin-left: 5px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 20px;
+    }
 }

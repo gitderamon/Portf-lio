@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Ramon</title>
     <link rel="stylesheet" href="css/opening.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -27,14 +28,14 @@
                 <button class="about-me-buttons">
                     <a href="curriculum.html" target="_blank" class="anchor-buttons">Currículo</a>
                 </button>
-                <button class="about-me-buttons">Contato</button>
+                <button class="about-me-buttons">
+                    <a href="#contact" class="anchor-buttons">Contato</a>
+                </button>
             </section>
         </div>
     </section>
     <section id="projects">
-        <div id="projects-title">
-            <h1>Projetos</h1>
-        </div>
+        <h1 id="projects-title">Projetos</h1>
         <div id="projects-div">
             <div class="project-div" id="sama-details">
                 <figure>
@@ -57,15 +58,41 @@
                 <div class="modal-content">
                     <span class="close">&times;</span>
                     <div class="image-space">
-                        <img src="images/opening-sama.PNG" alt="">
+                        <img src="images/opening-sama.PNG" alt="Captura de tela do SAMA">
                     </div>
                     <div class="modal-text">
                         <h1 class="white-text">Participação em SAMA</h1>
                         <p class="white-text">Atuei como Product Owner, sendo responsável por definir e priorizar as funcionalidades, além de garantir que o produto final estivesse alinhado às necessidades dos usuários. No desenvolvimento, tive participação mais ativa na área de front-end, colaborando com a equipe na construção de interfaces intuitivas e responsivas. Essa experiência me permitiu fortalecer tanto minhas habilidades de gestão de produto quanto meu conhecimento técnico em desenvolvimento web.</p>
+                        <br>
+                        <div id="repository">
+                            <a href="https://github.com/Equipe-DotTec/SAMA-API" class="white-text links" target="_blank">
+                                Repositório
+                            </a>
+                        </div>
                     </div> 
                 </div>
             </div>
         </div>
+    </section>
+    <section id="contact">
+        <h1 id="contact-title">Contato</h1>
+        <div id="center-icons">
+            <div id="icons">
+                <i class="fas fa-envelope"></i>
+                <p class="white-text links" id="copy-email" aria-label="Clique para copiar o e-mail">
+                    emailderamonbv@gmail.com
+                </p>
+                <i class="fas fa-phone"></i>
+                <p class="white-text links" id="copy-phone" aria-label="Clique para copiar o telefone">
+                    +55 12 99224-5370
+                </p>
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/gitderamon" target="_blank" class="white-text links">
+                    gitderamon
+                </a>
+            </div>
+        </div>
+        <div id="copied">Copiado!</div>
     </section>
 
 <script src="script/opening.js" defer></script>

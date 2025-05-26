@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <section id="theme-button">
+        <button id="switch-theme">🌗</button>
+    </section>
     <div>
         <section>
             <h1>Formação acadêmica</h1>
@@ -19,11 +22,17 @@
         <section>
             <h1>Certificações</h1>
             <ul class="star-ul">
-                <li class="star-li">Certificado em Git básico pela Cursa</li>
+                <li class="star-li certificates" id="basic-git-certificate-details">
+                    Certificado em Git básico pela Cursa
+                </li>
             </ul>
+            <div class="modal">
+                <img src="images/basic-git-certificate.png" alt="Certificado de Git básico">
+            </div>
         </section>
         <section>
             <h1>Competências técnicas</h1>
+            <p>Nível estimado baseado em prática atual:</p>
             <ul>
                 <li>HTML</li>
                 <div class="bar">
@@ -56,10 +65,13 @@
         <section>
             <h1>Documentos e trabalhos</h1>
             <ul class="star-ul">
-                <li class="star-li">None</li>
+                <li class="star-li">Em breve</li>
             </ul>
         </section>
     </div>
+
+<script src="script/curriculum.js" defer></script>
+
 </body>
 
 </html>

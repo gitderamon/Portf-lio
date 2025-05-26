@@ -1,0 +1,44 @@
+body {
+    background-color: #ffffff;
+    color: black;
+}
+
+#switch-theme:hover {
+    background-color: #ffdd00;
+}
+
+#about-me-title {
+    color: #ffdd00;
+}
+
+h1 {
+    color: #ffdd00;
+}
+
+.white-text, .links {
+    color: black;
+}
+
+.project-div, .modal-content {
+    background-color: #f0f0f0;
+}
+
+.project-div:hover {
+    background-color: #d8bb00;
+}
+
+.close {
+    color: black;
+}
+
+i {
+    color: #ffdd00;
+}
+
+.about-me-buttons:hover {
+    background-color: #ffdd00;
+}
+
+#copied {
+    color: #ffdd00;
+}

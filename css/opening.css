@@ -1,12 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #212121;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    transition: background-color 0.4s ease, transform 0.3s ease;
 }
 
-html {
-    scroll-behavior: smooth;
+#theme-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#switch-theme {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a2a2a2;
+    transition: background-color 0.4s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+#switch-theme:hover {
+    transform: scale(1.05);
+    background-color: #53c26b;
 }
 
 #about-me {
@@ -264,7 +287,7 @@ i {
     transform: translate(-50%, -50%);
     color: #53c26b;
     font-weight: bold;
-    z-index: 1000;
+    z-index: 101;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
